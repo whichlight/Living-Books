@@ -9,6 +9,7 @@ www.whichlight.com
 github: whichlight
 
 requires python-twitter
+http://code.google.com/p/python-twitter/
 
 in the function 'validate()' you stick your twitter api authentication keys.
 you can get this by registering an application with twitter.  this is just
