@@ -47,7 +47,7 @@ def logTweet(tweet):
 
 def tweet_out():
 	api = validate()
-	text = openBook(book_file)		
+	text = openBook(name_of_book)		
 	tweet = getRandomPhrase(text)
 	#tweet = "testing"
 	api.PostUpdate(tweet)		
