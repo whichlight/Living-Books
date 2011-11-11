@@ -1,0 +1,26 @@
+Living Books 
+
+A script to pull text randomly from a book, and tweet it
+This is part of an initiative to 'free' the data of books, and eventually 
+make them more interactive in a virtual public space. 
+
+www.whichlight.com
+@kawantum
+github: whichlight
+
+requires python-twitter
+
+in the function 'validate()' you stick your twitter api authentication keys.
+you can get this by registering an application with twitter.  this is just
+telling twitter you are using their api, you can feed the application any name,
+and you sign in with twitter. you set the application as read and write (or
+something like that) to get access to publishing tweets too. 
+https://dev.twitter.com/apps
+
+
+log.txt will be created and holds all the tweets
+book_file is the name of the file where the book is. feed it a txt file. 
+
+Note, you can also erase the whole 'while' loop in main() and only have
+'tweet_out()' in main, calling the script using cron every so often. 
+
